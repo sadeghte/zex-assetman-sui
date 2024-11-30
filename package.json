@@ -1,0 +1,25 @@
+{
+	"name": "zex-assetman-sui",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --verbose"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@mysten/sui": "^1.15.0",
+        "frost-ed25519": "git://github.com/sadeghte/frost-ed25519-lib.git"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.14",
+		"@types/node": "^22.9.3",
+		"dotenv": "^16.4.5",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.2"
+	}
+}
